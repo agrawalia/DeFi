@@ -12,4 +12,10 @@ module.exports = {
             default: 0,
         },
     },
+    networks :{
+        localhost: {
+            chainId: 31337,
+        },
+        hardhat: {}
+    }
 }
